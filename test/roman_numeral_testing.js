@@ -2,7 +2,7 @@ var assert = require('assert');
 var chai = require('chai');
 var should = chai.should();
 
-var roman_function = require('../roman_numeral_translator')
+var roman_function = require('../problems/roman_numeral_translator')
 
 describe('Array', function() {
   console.log(roman_function.translateRomanNumeral('V'))
