@@ -25,3 +25,5 @@ for(var i = 0; i<romanNumeral.length-1;i++){
 totalValue = totalValue + DIGIT_VALUES[romanNumeral[i]]
 return totalValue;
 }
+
+module.exports = {translateRomanNumeral}
