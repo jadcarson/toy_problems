@@ -2,6 +2,9 @@ function nestedWordCount(wordList) {
   var bigWord = {};
   var amount = 0;
   var theWord = '';
+  if(!Array.isArray(wordList)) {
+    return '';
+  }
   for (var i = 0; i < wordList.length; i++) {
     bigWord[wordList[i]] = 0;
   }
