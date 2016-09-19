@@ -13,7 +13,6 @@ function nestedWordCount(wordList) {
 
   }
   for (var key3 in bigWord) {
-    console.log(bigWord[key3])
     if (bigWord[key3] > amount) {
       amount = bigWord[key3]
       theWord = key3
@@ -22,3 +21,4 @@ function nestedWordCount(wordList) {
   }
   return theWord
 }
+module.exports = {nestedWordCount}
