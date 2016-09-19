@@ -4,9 +4,7 @@ var should = chai.should();
 
 var roman_function = require('../problems/roman_numeral_translator')
 
-describe('Array', function() {
-  console.log(roman_function.translateRomanNumeral('V'))
-  describe('#indexOf()', function() {
+  describe('Roman Numeral Translator', function() {
     it('should take a single roman numeral and give a value', function() {
       roman_function.translateRomanNumeral('V').should.equal(5)
     });
@@ -31,5 +29,3 @@ describe('Array', function() {
     })
       
   });
-
-});
